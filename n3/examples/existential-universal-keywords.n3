@@ -1,0 +1,13 @@
+### Existential
+@forSome <http://example.com/a> .
+@forSome <http://example.com/a>, <http://example.com/b>  .
+
+### Universal
+@forAll <http://example.com/a> .
+@forAll <http://example.com/a>, <http://example.com/b>  .
+
+### KEYWORDS
+# @keywords a . # Not working for now
+@keywords b .
+@keywords abc .
+@keywords abc, def .

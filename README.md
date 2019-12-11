@@ -1,5 +1,7 @@
 # Notation 3 (N3) grammar
 
+[![Build Status](https://travis-ci.com/lszeremeta/n3.svg?branch=master)](https://travis-ci.com/lszeremeta/n3)
+
 The Notation 3 (N3) grammar written in [ANTLR4](https://github.com/antlr/antlr4). If you prefer [Extended Backus-Naur Form (EBNF)](https://www.w3.org/TR/REC-xml/#sec-notation) notation, you can also see [N3 grammar in EBNF](https://github.com/lszeremeta/n3/blob/master/other-notations/N3.ebnf).
 
 [Notation 3 (also known as N3)](https://www.w3.org/TeamSubmission/n3/) is an assertion and logic language which is a superset of RDF. N3 extends the RDF datamodel by adding formulae (literals which are graphs themselves), variables, logical implication, and functional predicates, as well as providing an textual syntax alternative to RDF/XML.
